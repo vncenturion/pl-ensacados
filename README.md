@@ -81,7 +81,4 @@ Selecionar fornecedores que minimizem o custo total e respeitem os tempos máxim
 Universidade Federal da Paraíba – PPGEP  
 Prof. Anand Subramanian
 
-## 🗓️ João Pessoa, Junho de 2025
-
-
-> Este README representa um resumo técnico de um estudo de otimização linear voltado à construção civil, com aplicação prática no planejamento logístico de insumos de obras.
+### 🗓️ João Pessoa, Junho de 2025
