@@ -23,6 +23,25 @@ Minimizar a área ocupada por pilhas de cimento e argamassa, considerando o cons
 - Validade: 220 dias
 - Custo médio: R$ 40,00 a R$ 60,00
 
+## 📦 Serviços
+
+Dados de consumo de insumos para cada serviço:
+
+| Serviço | ID | Precedente | Insumo | Produtividade (m²/dia.equipe) | Consumo (kg/m².equipe) | Consumo diário (kg/equipe) | Consumo diário (sacos/equipe) | Qtd. total (m²) | Consumo total (sacos) | Cura (dias) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Alvenaria (cerâmico) | 0 | - | Cimento | 15 | 4,25 | 63,75 | 1,275 | 1450 | 123,25 | 3 |
+| Chapisco (interno) | 1 | 0 | Cimento | 30 | 2 | 60 | 1,2 | 2105 | 84,2 | 3 |
+| Chapisco (externo) | 2 | 0 | Cimento | 20 | 2 | 40 | 0,8 | 650 | 26 | 3 |
+| Reboco (interno) | 3 | 1 | Cimento | 25 | 7,5 | 187,5 | 3,75 | 2105 | 315,75 | 21 |
+| Reboco (externo) | 4 | 2 | Cimento | 15 | 7,5 | 112,5 | 2,25 | 650 | 97,5 | 21 |
+| Contrapiso | 5 | 0;3;4 | Cimento | 40 | 9 | 360 | 7,2 | 890 | 160,2 | 14 |
+| Revest. Piso Interno 60x60 | 6 | 5 | Argamassa ACIII | 25 | 4,7 | 117,5 | 5,875 | 750 | 176,25 | 0 |
+| Revest. Piso Externo 60x60 | 7 | 5 | Argamassa ACIII | 18 | 5,5 | 99 | 4,95 | 140 | 38,5 | 0 |
+| Revest. Parede Interna 30x60 | 8 | 3 | Argamassa ACIII | 20 | 4,5 | 90 | 4,5 | 770 | 173,25 | 0 |
+| Revest. Parede Externa 10x20 | 9 | 4 | Argamassa ACIII | 14 | 5,5 | 77 | 3,85 | 650 | 178,75 | 0 |
+
+
+
 ## 📈 Modelo Matemático
 
 ### Variáveis
@@ -78,7 +97,7 @@ Selecionar fornecedores que minimizem o custo total e respeitem os tempos máxim
 ## 📄 Autor
 
 **Vinicius Bezerra Cavalcanti Centurion**  
-Universidade Federal da Paraíba – PPGEP  
+Universidade Federal da Paraíba – PPGEPS 
 Prof. Anand Subramanian
 
 ### 🗓️ João Pessoa, Junho de 2025
